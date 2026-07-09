@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0f172a;
+  color: #f8fafc;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.box {
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 3rem;
+  font-weight: bold;
+
+  transition: all 0.25s ease;
+  background: #334155;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.box:hover:not(:disabled) {
+  transform: scale(1.05);
+  background: #475569;
+}
+
+.box:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.box:disabled {
+  cursor: default;
+}
+
+#game {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vh;
+  width: 52vmin;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmin;
+  background: #1e293b;
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.4),
+    inset 0 1px rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+}
+
+#centrespace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  margin-top: 30px;
+  padding: 10px 25px;
+  border-radius: 12px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#reset:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}
+
+#reset:active {
+  transform: scale(0.96);
+}
+#result {
+  margin: 1rem 0;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #facc15;
+  min-height: 2rem;
+}
+
+.x {
+  color: #ef4444;
+}
+
+.o {
+  color: #38bdf8;
+}
+
+/*now, animation of winning boxes - to look better when a player wins*/
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.win {
+  animation: pop 0.6s infinite;
+  background-color: #22c55e;
+  color: white;
+}
