@@ -48,14 +48,15 @@ Open it using **Live Server** in VS Code.
 
 ## 📸 Screenshot
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/acb304f6-3b3a-4cbf-95b9-913fbb11060c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/001deeda-dcd7-4e26-9d0a-25fd1280a524" />
+
 
 
 ```
 
 ## 🌐 Live Demo
 
-https://ahwan84.github.io/Tic-Tac-Toe/
+🔗 [Play Tic-Tac-Toe](https://ahwan84.github.io/Tic-Tac-Toe/)
 
 
 ## 📖 What I Learned
