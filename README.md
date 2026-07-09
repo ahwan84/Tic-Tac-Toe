@@ -56,7 +56,8 @@ Open it using **Live Server** in VS Code.
 
 ## 🌐 Live Demo
 
-🔗 [Play Tic-Tac-Toe](https://ahwan84.github.io/Tic-Tac-Toe/)
+🎮 **Play the game here:**  
+➡️ **[Play Tic-Tac-Toe](https://ahwan84.github.io/Tic-Tac-Toe/)**
 
 
 ## 📖 What I Learned
