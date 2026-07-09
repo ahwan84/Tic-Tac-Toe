@@ -52,7 +52,13 @@ Open it using **Live Server** in VS Code.
 
 
 
-```
+
+
+## 📱 Device Compatibility
+
+⚠️ **Best viewed on a PC or laptop.**
+
+The game is designed and optimized for desktop screens. It can be opened on mobile devices, but the experience may not be as smooth or visually consistent. Mobile optimization will be improved in future updates.
 
 ## 🌐 Live Demo
 
@@ -61,21 +67,17 @@ Open it using **Live Server** in VS Code.
 
 
 ## 📖 What I Learned
-
+```
 - DOM Manipulation
 - Event Handling
 - JavaScript Logic
 - CSS Flexbox
 - Responsive Design
 - Git & GitHub Basics
-
+```
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome.
-
-## 📄 License
-
-This project is licensed under Ahwan Sarkar
 
 ---
 
